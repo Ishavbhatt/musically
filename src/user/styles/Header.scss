@@ -1,0 +1,41 @@
+.header-div {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.icon-text {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: unset;
+}
+.music-logo {
+  display: inline-block;
+  color: #56baec;
+  text-decoration: none;
+}
+.navbar_link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: unset;
+}
+.music-icon {
+  padding-right: 0.2rem;
+}
+
+.navbar_link:hover {
+  border-bottom: 2px solid #56baec;
+  transform: translateY(-2px);
+  color: #56baec;
+}
+
+.navbar__link--active {
+  // color: #56baec;
+  border-bottom: 2px solid #56baec;
+  transition: border-bottom 0.5s ease-in-out;
+}
