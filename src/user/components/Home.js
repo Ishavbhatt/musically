@@ -11,13 +11,19 @@ function Home() {
     <>
       <div className="homepage">
         <Header />
-        <center>
-          <h1>Music for everyone</h1>
-          <h2>millions of songs</h2>
-          <Link to="/catagaries">
-            <button className="btn free-music-button">Get Free Music</button>
-          </Link>
-        </center>
+        <div className="flex">
+          <div>
+            <h1>Music for everyone</h1>
+            <h2>millions of songs</h2>
+            <Link to="/catagaries">
+              <button className="btn free-music-button">Get Free Music</button>
+            </Link>
+          </div>
+          {/* <div>
+            <img src="images/music.svg" className="music-drawicon" alt="draw" />
+          </div> */}
+        </div>
+
         <div className="footer-section">
           <div className="footer-wrapper">
             <div>

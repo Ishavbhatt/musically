@@ -28,6 +28,11 @@ class Signup extends React.Component {
               <h1 className="signup-page-heading-one">
                 Sign up for free to start listening.
               </h1>
+              <button type="submit" className="fadeIn fourth">
+                sign up with facebook
+              </button>
+              <p>Or.</p>
+
               <h3 className="signup-page-heading-secound">
                 Sign up with your email address
               </h3>

@@ -56,9 +56,21 @@
   padding: 0.7rem;
   font-size: 1.5rem;
 }
+.footer-items:hover {
+  color: #56baed;
+}
 .ishavbhatt {
   color: #56baed;
 }
 .footer-copy {
   color: gray;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.music-drawicon {
+  width: 50%;
+  height: 50%;
 }

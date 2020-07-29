@@ -6,6 +6,7 @@ import Header from "./Header";
 import Signin from "./Signin";
 import Home from "./Home";
 import Catagaries from "./Catagaries";
+import Songs from "./Songs";
 
 class App extends React.Component {
   constructor(props) {
@@ -31,7 +32,8 @@ class App extends React.Component {
             <Catagaries />
           </Route>
           <Route exact path="/songs">
-            <h1>Songs</h1>
+            <Header />
+            <Songs />
           </Route>
         </Switch>
       </>
